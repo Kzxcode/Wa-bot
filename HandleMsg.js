@@ -758,7 +758,7 @@ module.exports = HandleMsg = async (aruga, message) => {
                 hehex += '╠➥'
                 hehex += ` @${groupMem[i].id.replace(/@c.us/g, '')}\n`
             }
-            hehex += '╚═〘 *A R U G A  B O T* 〙'
+            hehex += '╚═〘 *KZXCODE* 〙'
             await aruga.sendTextWithMentions(from, hehex)
             break
 		case 'simisimi':
